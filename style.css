@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+#box{
+    height: 500px;
+    background-color: aqua;
+    background-image: fill;
+}
+#r1{
+    accent-color: aqua;
+    scale: 150%;
+}
+#r11{
+    accent-color: aqua;
+    scale: 150%;
+}
+#r111{
+    accent-color: aqua;
+    scale: 150%;
+}
+#rb{
+    position: absolute;
+    top: 90%;
+}
+
+#hj{
+    color: white;
+    position: absolute;
+    left: 95%;
+}
+#tg{
+    color: white;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    animation: text 1s  1s ;
+    display: none;
+    animation-fill-mode: forwards;
+}
+#ch{
+    color: white;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    animation: text 1s  1s ;
+    display: none;
+    animation-fill-mode: forwards;
+}
+#hs{
+    color: white;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    animation: text 1s  1s ;
+    display: none;
+    animation-fill-mode: forwards;
+}
+@keyframes text {
+    from{
+        opacity: 0;
+        top: -10%;
+    }
+    to{
+        opacity: 100%;
+        top: 0%;
+    }
+}
+#mbm{
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    font-size: 40px
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js2</title>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+    <div id="rb">
+    <input id="r1" onclick="ic()" type="radio">
+    <input id="r11" onclick="icc()" type="radio">
+    <input id="r111" onclick="iccc()" type="radio">
+</div>
+
+<h1 id="tg">Tiger</h1>
+<h1 id="ch">Cheta</h1>
+<h1 id="hs">Husky</h1>
+
+<h1 id="hj">Js2</h1>
+<h3 id="mbm">Made By Malik</h3>
+    <script>
+        function ic(){
+            document.getElementById("box").style.backgroundImage = "url('c.jpg')";
+            document.getElementById("r11").checked=false
+            document.getElementById("r111").checked=false
+            document.getElementById("tg").style.display="block"
+            document.getElementById("ch").style.display="none"
+            document.getElementById("hs").style.display="none"
+        }
+        function icc(){
+            document.getElementById("box").style.backgroundImage = "url('t.jpg')";
+            document.getElementById("r1").checked=false
+            document.getElementById("r111").checked=false
+            document.getElementById("ch").style.display="block"
+            document.getElementById("tg").style.display="none"
+            document.getElementById("hs").style.display="none"
+        }
+        function iccc(){
+            document.getElementById("box").style.backgroundImage = "url('h.jpg')";
+            document.getElementById("r1").checked=false
+            document.getElementById("r11").checked=false
+            document.getElementById("hs").style.display="block"
+            document.getElementById("tg").style.display="none"
+            document.getElementById("ch").style.display="none"
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
